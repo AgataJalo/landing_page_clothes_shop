@@ -69,24 +69,32 @@ header ul li a {
 }
 .content .text h2 {
     font-size: 4em;
-    line-height: 1.5em;
+   
+    margin-top: 20px;
 }
 
+.content .text p {
+    margin-top:20px;
+}
 .content .text a {
     display: inline-block;
     margin-top: 20px;
-    padding: 8px 40px;
-    border-radius: 40px;
-    background: lightgray;
+    padding: 8px 10px;
     text-decoration: none;
     color: black;
     text-transform: uppercase;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
 }
 
-.image {
-    width: 700px;
-    height: 500px;
+.text {
+    margin-right: 50px;
+}
+
+.img {
+    width: 600px;
+    height: 400px;
 }
 
 .change-icon {
@@ -204,6 +212,6 @@ header ul li a {
     }
     
     .content .image img {
-        
+       min-width: 350px;
     }
 }
